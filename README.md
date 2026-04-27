@@ -80,7 +80,6 @@ It is especially useful for:
 │   ├── bug-fixer.md
 │   ├── unit-test-generator.md
 │   ├── api-generator.md
-
 │   ├── invoice-generator.md
 │   ├── email-writer.md
 │   ├── resume-analyzer.md
@@ -104,5 +103,3 @@ This project is licensed under the MIT License.
 ## ⭐ Support the Project
 
 If you find this toolkit useful, please consider **starring the repository** on GitHub! It helps other developers find the project and motivates further updates.
-
-
