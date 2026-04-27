@@ -1,5 +1,10 @@
 # AI Prompt Toolkit
 
+![License](https://img.shields.io/github/license/invoicemintpro/prompttoolkit)
+![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)
+
+
 A curated collection of reusable prompts designed to help developers build AI-powered applications faster and more effectively.
 
 ---
@@ -17,6 +22,7 @@ A curated collection of reusable prompts designed to help developers build AI-po
 
 - 🧑‍💻 Code Review  
 - 🐞 Bug Fixing  
+- 🧪 Unit Testing
 - ⚙️ API Generation  
 - 💰 Invoice Generation  
 - 📧 Email Writing  
@@ -50,7 +56,9 @@ A curated collection of reusable prompts designed to help developers build AI-po
 ├── prompts/
 │   ├── code-review.md
 │   ├── bug-fixer.md
+│   ├── unit-test-generator.md
 │   ├── api-generator.md
+
 │   ├── invoice-generator.md
 │   ├── email-writer.md
 │   ├── resume-analyzer.md
