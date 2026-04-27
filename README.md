@@ -29,6 +29,16 @@ It is especially useful for:
 
 ---
 
+## 🎯 Who is this for?
+
+- **Frontend/Backend Developers**: Automate boilerplate, code reviews, and API design.
+- **AI Engineers**: Find robust base prompts for agentic workflows.
+- **Technical Writers**: Generate documentation and professional emails faster.
+- **Product Managers**: Prototype AI features and generate structured invoicing data.
+
+---
+
+
 
 ## 📂 Categories
 
@@ -88,4 +98,11 @@ Contributions are welcome! If you have a powerful prompt, feel free to open a PR
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support the Project
+
+If you find this toolkit useful, please consider **starring the repository** on GitHub! It helps other developers find the project and motivates further updates.
+
 
