@@ -1,12 +1,22 @@
 # ⚡ The AI Prompt Toolkit for Developers
 
-> Build, ship, and scale AI-powered applications with 50+ production-ready, battle-tested prompts. 🚀
+> The ultimate collection of 50+ production-ready prompts and real-world workflows to build, ship, and scale AI-powered apps. 🚀
 
 ![License](https://img.shields.io/github/license/invoicemintpro/prompttoolkit)
 ![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)
 
 A professional-grade collection of reusable prompts designed to help developers bridge the gap between AI and real-world software engineering.
+
+---
+
+## 🔥 Killer Feature: Real-World Workflows
+
+Don't just use individual prompts. Chain them together to build complete features.
+
+👉 **[View Full Workflow: From Idea to Production](file:///e:/Githubrepo/prompttoolkit/workflows/idea-to-production.md)**
+
+Includes how to sequence Architecture -> Backend -> Testing -> DevOps prompts for a seamless build experience.
 
 ---
 
@@ -21,62 +31,51 @@ A professional-grade collection of reusable prompts designed to help developers 
 
 ---
 
-## 🔥 Why This Project Matters
-
-Crafting effective prompts is the new "coding". This toolkit provides the missing building blocks for:
-- 🚀 **Building AI SaaS products** at 10x speed.
-- ⚙️ **Automating complex workflows** (DevOps, Security, Documentation).
-- 🛠️ **Ensuring production-ready** AI outputs every time.
-
----
-
-## 📂 The Prompt Library (40+ Resources)
+## 📂 The Prompt Library (50+ Resources)
 
 ### 🧑‍💻 Core Development
 - [Code Review](file:///e:/Githubrepo/prompttoolkit/prompts/code-review.md)
 - [Bug Fixing](file:///e:/Githubrepo/prompttoolkit/prompts/bug-fixer.md)
 - [Unit Testing](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-generator.md)
+- [React Refactor](file:///e:/Githubrepo/prompttoolkit/prompts/react-refactor.md)
 - [Unit Test Mocks](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-mocks.md)
-- [Refactoring Legacy Code](file:///e:/Githubrepo/prompttoolkit/prompts/legacy-refactor.md)
+- [Legacy Refactor](file:///e:/Githubrepo/prompttoolkit/prompts/legacy-refactor.md)
 - [Regex Master](file:///e:/Githubrepo/prompttoolkit/prompts/regex-master.md)
 - [SQL Query Generator](file:///e:/Githubrepo/prompttoolkit/prompts/sql-query-generator.md)
 
-### 🏗️ Architecture & Strategy
+### 🏗️ Architecture & Advanced Backend
 - [System Design](file:///e:/Githubrepo/prompttoolkit/prompts/system-design.md)
 - [Microservices Architect](file:///e:/Githubrepo/prompttoolkit/prompts/microservices-arch.md)
 - [Database Schema](file:///e:/Githubrepo/prompttoolkit/prompts/database-schema.md)
-- [GraphQL Schema](file:///e:/Githubrepo/prompttoolkit/prompts/graphql-gen.md)
-- [Mobile App Architecture](file:///e:/Githubrepo/prompttoolkit/prompts/mobile-arch.md)
-- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
-- [SaaS Idea Generator](file:///e:/Githubrepo/prompttoolkit/prompts/saas-idea-generator.md)
-- [Startup Pitch](file:///e:/Githubrepo/prompttoolkit/prompts/startup-pitch.md)
+- [Redis Caching](file:///e:/Githubrepo/prompttoolkit/prompts/redis-caching.md)
+- [ElasticSearch Mapping](file:///e:/Githubrepo/prompttoolkit/prompts/elasticsearch-gen.md)
+- [Rate Limiting Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/rate-limiting.md)
+- [Background Job Worker](file:///e:/Githubrepo/prompttoolkit/prompts/background-jobs.md)
+- [Webhook Handler](file:///e:/Githubrepo/prompttoolkit/prompts/webhook-handler.md)
+- [OAuth2 Provider Design](file:///e:/Githubrepo/prompttoolkit/prompts/oauth2-provider.md)
 
 ### 🚀 DevOps & Automation
 - [CI/CD Pipeline Builder](file:///e:/Githubrepo/prompttoolkit/prompts/cicd-pipeline.md)
 - [Kubernetes Generator](file:///e:/Githubrepo/prompttoolkit/prompts/kubernetes-gen.md)
 - [Cloud Infrastructure (IaC)](file:///e:/Githubrepo/prompttoolkit/prompts/cloud-infrastructure.md)
+- [Serverless Gen](file:///e:/Githubrepo/prompttoolkit/prompts/serverless-gen.md)
 - [Dockerfile Generator](file:///e:/Githubrepo/prompttoolkit/prompts/dockerfile-generator.md)
-- [Shell Script Expert](file:///e:/Githubrepo/prompttoolkit/prompts/shell-script-expert.md)
+- [Load Testing Plan](file:///e:/Githubrepo/prompttoolkit/prompts/load-testing.md)
 - [Git Commit Generator](file:///e:/Githubrepo/prompttoolkit/prompts/git-commit-generator.md)
-- [Git Branching Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/git-branching.md)
 
 ### 🛡️ Security & Observability
-- [Security Vulnerability Scanner](file:///e:/Githubrepo/prompttoolkit/prompts/security-scanner.md)
+- [Security Scanner](file:///e:/Githubrepo/prompttoolkit/prompts/security-scanner.md)
 - [Auth & Security Validator](file:///e:/Githubrepo/prompttoolkit/prompts/auth-validator.md)
-- [Environment Variables Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/env-vars.md)
 - [Performance Profiler](file:///e:/Githubrepo/prompttoolkit/prompts/performance-profiler.md)
 - [Logging & Monitoring](file:///e:/Githubrepo/prompttoolkit/prompts/logging-monitoring.md)
 - [Error Handling Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/error-handler.md)
 
-### 🤖 AI & Productivity
+### 🤖 Product & AI Strategy
+- [SaaS Idea Generator](file:///e:/Githubrepo/prompttoolkit/prompts/saas-idea-generator.md)
 - [AI Agent Builder](file:///e:/Githubrepo/prompttoolkit/prompts/ai-agent-builder.md)
-- [Chatbot Systems](file:///e:/Githubrepo/prompttoolkit/prompts/chatbot-system.md)
-- [UI/UX Reviewer](file:///e:/Githubrepo/prompttoolkit/prompts/ui-ux-reviewer.md)
-- [API Documentation (Swagger)](file:///e:/Githubrepo/prompttoolkit/prompts/api-swagger.md)
-- [Documentation Writer](file:///e:/Githubrepo/prompttoolkit/prompts/documentation-writer.md)
-- [Invoice Generation](file:///e:/Githubrepo/prompttoolkit/prompts/invoice-generator.md)
-- [Email Writing](file:///e:/Githubrepo/prompttoolkit/prompts/email-writer.md)
-- [Resume Analysis](file:///e:/Githubrepo/prompttoolkit/prompts/resume-analyzer.md)
+- [Startup Pitch](file:///e:/Githubrepo/prompttoolkit/prompts/startup-pitch.md)
+- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
+- [Stripe Integration](file:///e:/Githubrepo/prompttoolkit/prompts/stripe-integration.md)
 
 ---
 
