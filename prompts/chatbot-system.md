@@ -21,3 +21,5 @@ Deliver the output as a structured "System Role" block suitable for OpenAI/Claud
 ## How to use
 1. Define the persona clearly.
 2. Constraints are critical for preventing hallucinations or off-topic responses.
+
+

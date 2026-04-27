@@ -27,3 +27,5 @@ Analysis Task:
 ## How to use
 1. Paste the full text of the resume and the job posting.
 2. This is useful for both job seekers (optimization) and hiring managers (initial screening).
+
+

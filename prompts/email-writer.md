@@ -22,3 +22,5 @@ The email should be concise, professional, and have a clear Call to Action (CTA)
 1. Define the tone and subject.
 2. List the bullet points you want the AI to expand upon.
 3. State your ultimate goal for the communication.
+
+
