@@ -20,6 +20,16 @@ Includes how to sequence Architecture -> Backend -> Testing -> DevOps prompts fo
 
 ---
 
+## ⚙️ Advanced Features
+
+This toolkit is built for production environments.
+
+- **YAML Configs**: All prompts are available in YAML format for easy integration into custom pipelines. [View Configs](file:///e:/Githubrepo/prompttoolkit/configs/code-review.yaml)
+- **Evaluation Framework**: Use our [Evaluation Matrix](file:///e:/Githubrepo/prompttoolkit/testing/evaluation-guide.md) to test and score prompt outputs.
+- **Strict Versioning**: We follow semantic versioning. Track changes in the [CHANGELOG.md](file:///e:/Githubrepo/prompttoolkit/CHANGELOG.md).
+
+---
+
 ## ⚡ Quick Examples (The "WOW" Factor)
 
 | Category | Input | Output |

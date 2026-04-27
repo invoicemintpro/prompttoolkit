@@ -1,0 +1,31 @@
+# ⚙️ YAML Prompt Configurations
+
+Advanced users can use these YAML files to integrate prompts into their automated pipelines or custom LLM wrappers.
+
+## Example: Code Review Config (`configs/code-review.yaml`)
+
+```yaml
+name: "Code Review"
+version: "1.1.0"
+category: "Development"
+model_settings:
+  model: "claude-3-5-sonnet-20240620"
+  temperature: 0.2
+  max_tokens: 4000
+variables:
+  - name: "language"
+    description: "The programming language of the code"
+  - name: "code"
+    description: "The source code to be reviewed"
+prompt_template: |
+  Act as a Senior Software Engineer with expertise in {{language}}.
+  Review the following code for:
+  1. Potential bugs or edge cases.
+  2. Performance bottlenecks.
+  3. Security vulnerabilities (OWASP Top 10).
+  
+  Code to Review:
+  ---
+  {{code}}
+  ---
+```
