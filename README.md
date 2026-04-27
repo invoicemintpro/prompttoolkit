@@ -1,32 +1,16 @@
-# ⚡ The AI Prompt Toolkit for Developers
+<p align="center">
+  <img src="assets/logo.png" width="150" alt="PromptMint Logo">
+</p>
 
-> The ultimate collection of 50+ production-ready prompts and real-world workflows to build, ship, and scale AI-powered apps. 🚀
+# 🍃 PromptMint: The Developer's AI Blueprint
+
+> Build, ship, and scale AI-powered applications with 50+ production-ready, battle-tested prompts. 🚀
 
 ![License](https://img.shields.io/github/license/invoicemintpro/prompttoolkit)
 ![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)
 
-A professional-grade collection of reusable prompts designed to help developers bridge the gap between AI and real-world software engineering.
-
----
-
-## 🔥 Killer Feature: Real-World Workflows
-
-Don't just use individual prompts. Chain them together to build complete features.
-
-👉 **[View Full Workflow: From Idea to Production](file:///e:/Githubrepo/prompttoolkit/workflows/idea-to-production.md)**
-
-Includes how to sequence Architecture -> Backend -> Testing -> DevOps prompts for a seamless build experience.
-
----
-
-## ⚙️ Advanced Features
-
-This toolkit is built for production environments.
-
-- **YAML Configs**: All prompts are available in YAML format for easy integration into custom pipelines. [View Configs](file:///e:/Githubrepo/prompttoolkit/configs/code-review.yaml)
-- **Evaluation Framework**: Use our [Evaluation Matrix](file:///e:/Githubrepo/prompttoolkit/testing/evaluation-guide.md) to test and score prompt outputs.
-- **Strict Versioning**: We follow semantic versioning. Track changes in the [CHANGELOG.md](file:///e:/Githubrepo/prompttoolkit/CHANGELOG.md).
+**PromptMint** is a professional-grade collection of reusable prompts and structured workflows. It bridges the gap between raw LLM capabilities and real-world software engineering, providing developers with a consistent, reliable "blueprint" for AI integration.
 
 ---
 
@@ -41,15 +25,41 @@ This toolkit is built for production environments.
 
 ---
 
+## ⚙️ Advanced Features
+
+This toolkit is built for production environments.
+
+- **YAML Configs**: All prompts are available in YAML format for easy integration into custom pipelines. [View Configs](file:///e:/Githubrepo/prompttoolkit/configs/code-review.yaml)
+- **Evaluation Framework**: Use our [Evaluation Matrix](file:///e:/Githubrepo/prompttoolkit/testing/evaluation-guide.md) to test and score prompt outputs.
+- **Strict Versioning**: We follow semantic versioning. Track changes in the [CHANGELOG.md](file:///e:/Githubrepo/prompttoolkit/CHANGELOG.md).
+
+---
+
+## 🛠️ Visual Workflow: From Idea to Production
+
+```mermaid
+graph TD
+    A[Idea: SaaS Idea Gen] --> B[Arch: System Design]
+    B --> C[Data: DB Schema Gen]
+    C --> D[Code: API Generator]
+    D --> E[Quality: Unit Test Gen]
+    E --> F[Security: Vulnerability Scan]
+    F --> G[Ship: Dockerfile & CI/CD]
+    G --> H[Product Ready 🚀]
+```
+
+👉 **[Read the Deep-Dive Workflow Guide](file:///e:/Githubrepo/prompttoolkit/workflows/idea-to-production.md)**
+
+---
+
 ## 📂 The Prompt Library (50+ Resources)
 
 ### 🧑‍💻 Core Development
 - [Code Review](file:///e:/Githubrepo/prompttoolkit/prompts/code-review.md)
 - [Bug Fixing](file:///e:/Githubrepo/prompttoolkit/prompts/bug-fixer.md)
 - [Unit Testing](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-generator.md)
-- [React Refactor](file:///e:/Githubrepo/prompttoolkit/prompts/react-refactor.md)
 - [Unit Test Mocks](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-mocks.md)
-- [Legacy Refactor](file:///e:/Githubrepo/prompttoolkit/prompts/legacy-refactor.md)
+- [Refactoring Legacy Code](file:///e:/Githubrepo/prompttoolkit/prompts/legacy-refactor.md)
 - [Regex Master](file:///e:/Githubrepo/prompttoolkit/prompts/regex-master.md)
 - [SQL Query Generator](file:///e:/Githubrepo/prompttoolkit/prompts/sql-query-generator.md)
 
@@ -57,44 +67,43 @@ This toolkit is built for production environments.
 - [System Design](file:///e:/Githubrepo/prompttoolkit/prompts/system-design.md)
 - [Microservices Architect](file:///e:/Githubrepo/prompttoolkit/prompts/microservices-arch.md)
 - [Database Schema](file:///e:/Githubrepo/prompttoolkit/prompts/database-schema.md)
-- [Redis Caching](file:///e:/Githubrepo/prompttoolkit/prompts/redis-caching.md)
-- [ElasticSearch Mapping](file:///e:/Githubrepo/prompttoolkit/prompts/elasticsearch-gen.md)
-- [Rate Limiting Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/rate-limiting.md)
-- [Background Job Worker](file:///e:/Githubrepo/prompttoolkit/prompts/background-jobs.md)
-- [Webhook Handler](file:///e:/Githubrepo/prompttoolkit/prompts/webhook-handler.md)
-- [OAuth2 Provider Design](file:///e:/Githubrepo/prompttoolkit/prompts/oauth2-provider.md)
+- [GraphQL Schema](file:///e:/Githubrepo/prompttoolkit/prompts/graphql-gen.md)
+- [Mobile App Architecture](file:///e:/Githubrepo/prompttoolkit/prompts/mobile-arch.md)
+- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
+- [SaaS Idea Generator](file:///e:/Githubrepo/prompttoolkit/prompts/saas-idea-generator.md)
+- [Startup Pitch](file:///e:/Githubrepo/prompttoolkit/prompts/startup-pitch.md)
 
 ### 🚀 DevOps & Automation
 - [CI/CD Pipeline Builder](file:///e:/Githubrepo/prompttoolkit/prompts/cicd-pipeline.md)
 - [Kubernetes Generator](file:///e:/Githubrepo/prompttoolkit/prompts/kubernetes-gen.md)
 - [Cloud Infrastructure (IaC)](file:///e:/Githubrepo/prompttoolkit/prompts/cloud-infrastructure.md)
-- [Serverless Gen](file:///e:/Githubrepo/prompttoolkit/prompts/serverless-gen.md)
 - [Dockerfile Generator](file:///e:/Githubrepo/prompttoolkit/prompts/dockerfile-generator.md)
-- [Load Testing Plan](file:///e:/Githubrepo/prompttoolkit/prompts/load-testing.md)
+- [Shell Script Expert](file:///e:/Githubrepo/prompttoolkit/prompts/shell-script-expert.md)
 - [Git Commit Generator](file:///e:/Githubrepo/prompttoolkit/prompts/git-commit-generator.md)
+- [Git Branching Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/git-branching.md)
 
 ### 🛡️ Security & Observability
-- [Security Scanner](file:///e:/Githubrepo/prompttoolkit/prompts/security-scanner.md)
+- [Security Vulnerability Scanner](file:///e:/Githubrepo/prompttoolkit/prompts/security-scanner.md)
 - [Auth & Security Validator](file:///e:/Githubrepo/prompttoolkit/prompts/auth-validator.md)
+- [Environment Variables Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/env-vars.md)
 - [Performance Profiler](file:///e:/Githubrepo/prompttoolkit/prompts/performance-profiler.md)
 - [Logging & Monitoring](file:///e:/Githubrepo/prompttoolkit/prompts/logging-monitoring.md)
 - [Error Handling Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/error-handler.md)
 
-### 🤖 Product & AI Strategy
-- [SaaS Idea Generator](file:///e:/Githubrepo/prompttoolkit/prompts/saas-idea-generator.md)
-- [AI Agent Builder](file:///e:/Githubrepo/prompttoolkit/prompts/ai-agent-builder.md)
-- [Startup Pitch](file:///e:/Githubrepo/prompttoolkit/prompts/startup-pitch.md)
-- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
-- [Stripe Integration](file:///e:/Githubrepo/prompttoolkit/prompts/stripe-integration.md)
-
 ---
 
-## 🛠️ How to Use
+## 🗺️ Vision & Roadmap
 
-1. Browse the `prompts/` folder  
-2. Copy the relevant prompt  
-3. Customize inputs based on your use case  
-4. Use with any AI model (Claude, GPT-4, Gemini Pro, etc.)  
+We are building the first open-source **Prompt Explorer UI** to help you browse, test, and copy prompts with a single click.
+
+<p align="center">
+  <img src="assets/mockup.png" width="600" alt="PromptMint UI Mockup">
+</p>
+
+- [ ] Interactive Prompt Explorer Web App
+- [ ] VS Code Extension for instant prompt insertion
+- [ ] CLI Tool for pipeline integration
+- [ ] Community-driven prompt marketplace
 
 ---
 
@@ -104,4 +113,4 @@ Contributions are welcome! If you have a powerful prompt, feel free to open a PR
 
 ## ⭐ Support the Project
 
-If you find this toolkit useful, please consider **starring the repository** on GitHub! It helps other developers find the project and motivates further updates.
+If you find **PromptMint** useful, please consider **starring the repository** on GitHub! It helps other developers find the project and motivates further updates.
