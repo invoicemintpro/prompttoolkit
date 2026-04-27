@@ -1,75 +1,79 @@
-# AI Prompt Toolkit for Developers
+# ⚡ The AI Prompt Toolkit for Developers
 
-> 50+ battle-tested prompts to build AI apps faster 🚀
+> Build, ship, and scale AI-powered applications with 50+ production-ready, battle-tested prompts. 🚀
 
 ![License](https://img.shields.io/github/license/invoicemintpro/prompttoolkit)
 ![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)
 
-A curated collection of reusable prompts designed to help developers build AI-powered applications faster and more effectively.
+A professional-grade collection of reusable prompts designed to help developers bridge the gap between AI and real-world software engineering.
 
 ---
 
-## ⚡ Quick Examples
+## ⚡ Quick Examples (The "WOW" Factor)
 
 | Category | Input | Output |
 | :--- | :--- | :--- |
 | **Code Review** | Messy, unoptimized code | Optimized, secure, & documented version |
-| **API Generator** | Feature idea or endpoint name | Full REST/GraphQL structure & validation |
-| **Invoice Gen** | Raw billing notes | Professional JSON/HTML invoice |
-| **System Design** | App requirements | High-level architecture & tech stack |
+| **System Design** | Feature requirements | High-level architecture & tech stack |
+| **Security Audit** | Code snippet | OWASP vulnerability report & secure fix |
+| **API Generator** | Endpoint name/logic | Full REST/GraphQL structure & validation |
 
 ---
 
 ## 🔥 Why This Project Matters
 
-As AI adoption grows, developers often struggle with crafting effective prompts for different use cases. This toolkit provides structured, reusable prompts that reduce trial-and-error and improve consistency in AI outputs.
+Crafting effective prompts is the new "coding". This toolkit provides the missing building blocks for:
+- 🚀 **Building AI SaaS products** at 10x speed.
+- ⚙️ **Automating complex workflows** (DevOps, Security, Documentation).
+- 🛠️ **Ensuring production-ready** AI outputs every time.
 
 ---
 
-## 🎯 Who is this for?
+## 📂 The Prompt Library (40+ Resources)
 
-- **Frontend/Backend Developers**: Automate boilerplate, code reviews, and API design.
-- **AI Engineers**: Find robust base prompts for agentic workflows.
-- **Technical Writers**: Generate documentation and professional emails faster.
-- **Product Managers**: Prototype AI features and generate structured invoicing data.
-
----
-
-## 🧰 Use this for:
-- 🚀 **Building AI SaaS products**
-- ⚙️ **Automating developer workflows**
-- 🛠️ **Rapid prototyping for AI features**
-- 🧠 **Learning advanced prompt engineering**
-
----
-
-## 📂 Categories & Prompts
-
-### 🧑‍💻 Development & Code
+### 🧑‍💻 Core Development
 - [Code Review](file:///e:/Githubrepo/prompttoolkit/prompts/code-review.md)
 - [Bug Fixing](file:///e:/Githubrepo/prompttoolkit/prompts/bug-fixer.md)
 - [Unit Testing](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-generator.md)
-- [API Generation](file:///e:/Githubrepo/prompttoolkit/prompts/api-generator.md)
-- [Documentation Writer](file:///e:/Githubrepo/prompttoolkit/prompts/documentation-writer.md)
-- [Git Commit Generator](file:///e:/Githubrepo/prompttoolkit/prompts/git-commit-generator.md)
+- [Unit Test Mocks](file:///e:/Githubrepo/prompttoolkit/prompts/unit-test-mocks.md)
+- [Refactoring Legacy Code](file:///e:/Githubrepo/prompttoolkit/prompts/legacy-refactor.md)
+- [Regex Master](file:///e:/Githubrepo/prompttoolkit/prompts/regex-master.md)
 - [SQL Query Generator](file:///e:/Githubrepo/prompttoolkit/prompts/sql-query-generator.md)
-- [Dockerfile Generator](file:///e:/Githubrepo/prompttoolkit/prompts/dockerfile-generator.md)
-- [Cypress Test Generator](file:///e:/Githubrepo/prompttoolkit/prompts/cypress-test-generator.md)
-
 
 ### 🏗️ Architecture & Strategy
 - [System Design](file:///e:/Githubrepo/prompttoolkit/prompts/system-design.md)
+- [Microservices Architect](file:///e:/Githubrepo/prompttoolkit/prompts/microservices-arch.md)
 - [Database Schema](file:///e:/Githubrepo/prompttoolkit/prompts/database-schema.md)
+- [GraphQL Schema](file:///e:/Githubrepo/prompttoolkit/prompts/graphql-gen.md)
+- [Mobile App Architecture](file:///e:/Githubrepo/prompttoolkit/prompts/mobile-arch.md)
+- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
 - [SaaS Idea Generator](file:///e:/Githubrepo/prompttoolkit/prompts/saas-idea-generator.md)
 - [Startup Pitch](file:///e:/Githubrepo/prompttoolkit/prompts/startup-pitch.md)
-- [Product Roadmap](file:///e:/Githubrepo/prompttoolkit/prompts/product-roadmap.md)
 
+### 🚀 DevOps & Automation
+- [CI/CD Pipeline Builder](file:///e:/Githubrepo/prompttoolkit/prompts/cicd-pipeline.md)
+- [Kubernetes Generator](file:///e:/Githubrepo/prompttoolkit/prompts/kubernetes-gen.md)
+- [Cloud Infrastructure (IaC)](file:///e:/Githubrepo/prompttoolkit/prompts/cloud-infrastructure.md)
+- [Dockerfile Generator](file:///e:/Githubrepo/prompttoolkit/prompts/dockerfile-generator.md)
+- [Shell Script Expert](file:///e:/Githubrepo/prompttoolkit/prompts/shell-script-expert.md)
+- [Git Commit Generator](file:///e:/Githubrepo/prompttoolkit/prompts/git-commit-generator.md)
+- [Git Branching Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/git-branching.md)
 
-### 🤖 AI & Automation
-- [Chatbot Systems](file:///e:/Githubrepo/prompttoolkit/prompts/chatbot-system.md)
+### 🛡️ Security & Observability
+- [Security Vulnerability Scanner](file:///e:/Githubrepo/prompttoolkit/prompts/security-scanner.md)
+- [Auth & Security Validator](file:///e:/Githubrepo/prompttoolkit/prompts/auth-validator.md)
+- [Environment Variables Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/env-vars.md)
+- [Performance Profiler](file:///e:/Githubrepo/prompttoolkit/prompts/performance-profiler.md)
+- [Logging & Monitoring](file:///e:/Githubrepo/prompttoolkit/prompts/logging-monitoring.md)
+- [Error Handling Strategy](file:///e:/Githubrepo/prompttoolkit/prompts/error-handler.md)
+
+### 🤖 AI & Productivity
 - [AI Agent Builder](file:///e:/Githubrepo/prompttoolkit/prompts/ai-agent-builder.md)
+- [Chatbot Systems](file:///e:/Githubrepo/prompttoolkit/prompts/chatbot-system.md)
 - [UI/UX Reviewer](file:///e:/Githubrepo/prompttoolkit/prompts/ui-ux-reviewer.md)
+- [API Documentation (Swagger)](file:///e:/Githubrepo/prompttoolkit/prompts/api-swagger.md)
+- [Documentation Writer](file:///e:/Githubrepo/prompttoolkit/prompts/documentation-writer.md)
 - [Invoice Generation](file:///e:/Githubrepo/prompttoolkit/prompts/invoice-generator.md)
 - [Email Writing](file:///e:/Githubrepo/prompttoolkit/prompts/email-writer.md)
 - [Resume Analysis](file:///e:/Githubrepo/prompttoolkit/prompts/resume-analyzer.md)
@@ -81,7 +85,7 @@ As AI adoption grows, developers often struggle with crafting effective prompts 
 1. Browse the `prompts/` folder  
 2. Copy the relevant prompt  
 3. Customize inputs based on your use case  
-4. Use with any AI model (Claude, GPT, Gemini, etc.)  
+4. Use with any AI model (Claude, GPT-4, Gemini Pro, etc.)  
 
 ---
 
